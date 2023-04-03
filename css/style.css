@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("/fonts/CircularStd-Bold.woff") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("/fonts/CircularStd-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+/* ----owl-css--- */
+
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  background-color: #dfdbdb !important;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 0 5px;
+  width: 10px;
+}
+
+.owl-dot.active {
+  background-color: #ffffff !important;
+}
+
+/* ----- modal_css---- */
+.modal {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+}
